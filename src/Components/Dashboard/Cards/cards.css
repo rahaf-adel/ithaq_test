@@ -1,0 +1,25 @@
+/* Cards */
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;;
+}
+.parent-container{
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .cards{
+    flex-direction: column;
+  }
+  .parent-container{
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .cards{
+    width: 90%;
+  }
+}

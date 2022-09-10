@@ -1,0 +1,65 @@
+/* h6 {
+  color: burlywood;
+}
+h5{
+  color: darkgray;
+} */
+.containerOfStaff {
+  max-width: 1000px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.containerOfStaff .cardOfStaff {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.containerOfStaff .cardOfStaff:hover {
+  height: 500px;
+}
+.fav{
+  color: rgb(239, 233, 233);
+   font-size: 30px;
+   
+}
+.fav:hover {
+  cursor:pointer;
+  font-size: 30px;
+  color: rgb(201, 12, 12);
+}
+.containerOfStaff .cardOfStaff .imageBox {
+  position: relative;
+  top: -60px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.containerOfStaff .cardOfStaff .imageBox img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.containerOfStaff .cardOfStaff .contentStaff {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out; /*move of content*/
+}
+.containerOfStaff .cardOfStaff:hover .contentStaff {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+

@@ -1,0 +1,32 @@
+/* h1{
+    color:gold;
+} */
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link{
+    background:none;
+}
+@media screen and (max-width: 768px) {
+    .css-gg4vpm{
+        margin-top: 250px;
+    }
+    .svg{
+        display: none;
+    }
+    .css-1u9baau.aos-init.aos-animate{
+        margin-top: -150px;
+    }
+    .navbar-collapse{
+        margin-left: 20px;
+    }
+    .css-14wrxsw::after{
+        margin-bottom: 30px;
+    }
+    .chakra-icon.chakra-icon.css-hgla2m{
+        display: none;
+    }
+    .chakra-text.css-1c6x6wi{
+        display: none;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+}
